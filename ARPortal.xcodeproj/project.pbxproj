@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532619BF23C2750A00943251 /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 532619BE23C2750900943251 /* Portal.scnassets */; };
 		538AB17923C260BB00888A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB17823C260BB00888A80 /* AppDelegate.swift */; };
 		538AB17B23C260BB00888A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB17A23C260BB00888A80 /* SceneDelegate.swift */; };
 		538AB17D23C260BB00888A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB17C23C260BB00888A80 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		538AB18523C260BD00888A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AB18323C260BD00888A80 /* LaunchScreen.storyboard */; };
 		538AB19023C260BD00888A80 /* ARPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB18F23C260BD00888A80 /* ARPortalTests.swift */; };
 		538AB19B23C260BD00888A80 /* ARPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB19A23C260BD00888A80 /* ARPortalUITests.swift */; };
-		538AB1A923C2643100888A80 /* Portal.scn in Resources */ = {isa = PBXBuildFile; fileRef = 538AB1A823C2643100888A80 /* Portal.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		532619BE23C2750900943251 /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
 		538AB17523C260BB00888A80 /* ARPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AB17823C260BB00888A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538AB17A23C260BB00888A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		538AB19623C260BD00888A80 /* ARPortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPortalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AB19A23C260BD00888A80 /* ARPortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPortalUITests.swift; sourceTree = "<group>"; };
 		538AB19C23C260BD00888A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		538AB1A823C2643100888A80 /* Portal.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Portal.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				538AB18123C260BD00888A80 /* Assets.xcassets */,
 				538AB18323C260BD00888A80 /* LaunchScreen.storyboard */,
 				538AB18623C260BD00888A80 /* Info.plist */,
-				538AB1A823C2643100888A80 /* Portal.scn */,
+				532619BE23C2750900943251 /* Portal.scnassets */,
 			);
 			path = ARPortal;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532619BF23C2750A00943251 /* Portal.scnassets in Resources */,
 				538AB18523C260BD00888A80 /* LaunchScreen.storyboard in Resources */,
 				538AB18223C260BD00888A80 /* Assets.xcassets in Resources */,
-				538AB1A923C2643100888A80 /* Portal.scn in Resources */,
 				538AB18023C260BB00888A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
