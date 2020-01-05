@@ -15,6 +15,7 @@
 		538AB18523C260BD00888A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AB18323C260BD00888A80 /* LaunchScreen.storyboard */; };
 		538AB19023C260BD00888A80 /* ARPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB18F23C260BD00888A80 /* ARPortalTests.swift */; };
 		538AB19B23C260BD00888A80 /* ARPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AB19A23C260BD00888A80 /* ARPortalUITests.swift */; };
+		538AB1A923C2643100888A80 /* Portal.scn in Resources */ = {isa = PBXBuildFile; fileRef = 538AB1A823C2643100888A80 /* Portal.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		538AB19623C260BD00888A80 /* ARPortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPortalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AB19A23C260BD00888A80 /* ARPortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPortalUITests.swift; sourceTree = "<group>"; };
 		538AB19C23C260BD00888A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538AB1A823C2643100888A80 /* Portal.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Portal.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				538AB18123C260BD00888A80 /* Assets.xcassets */,
 				538AB18323C260BD00888A80 /* LaunchScreen.storyboard */,
 				538AB18623C260BD00888A80 /* Info.plist */,
+				538AB1A823C2643100888A80 /* Portal.scn */,
 			);
 			path = ARPortal;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				538AB18523C260BD00888A80 /* LaunchScreen.storyboard in Resources */,
 				538AB18223C260BD00888A80 /* Assets.xcassets in Resources */,
+				538AB1A923C2643100888A80 /* Portal.scn in Resources */,
 				538AB18023C260BB00888A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.ARPortal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.ARPortal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

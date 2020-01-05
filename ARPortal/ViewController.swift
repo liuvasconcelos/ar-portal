@@ -7,14 +7,36 @@
 //
 
 import UIKit
+import ARKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ARSCNViewDelegate {
 
+    @IBOutlet weak var sceneView: ARSCNView!
+    @IBOutlet weak var planeDetected: UILabel!
+    
+    let configuration = ARWorldTrackingConfiguration()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        sceneView.debugOptions = [SCNDebugOptions.showWorldOrigin,
+                                  SCNDebugOptions.showFeaturePoints]
+        configuration.planeDetection = .horizontal
+        sceneView.session.run(configuration)
+        
+        sceneView.delegate = self
     }
 
-
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard anchor is ARPlaneAnchor else { return }
+        
+        DispatchQueue.main.async {
+            self.planeDetected.isHidden = false
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            self.planeDetected.isHidden = true
+        }
+    }
 }
 
